@@ -1,0 +1,20 @@
+<ion-view view-title="{{ 'TITLE' | translate }}">
+  <ion-content class="padding" >
+    <div class="list card">
+      <div class="item item-divider">{{ 'GREETINGS' | translate }}</div>
+      <div class="item item-body">
+        <div>
+          {{ 'WELCOME' | translate: { newHireCount: 12} }}
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">{{ 'GREETINGS' | translate }}</div>
+      <div class="item item-body">
+        <div>
+         {{ displayMessage }}
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

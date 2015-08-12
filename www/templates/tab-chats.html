@@ -1,0 +1,18 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        123.32 formatted as <br>{{ '123.32' | currency }}
+      </ion-item>
+      <ion-item>
+        12123.32 formatted as <br>{{ '12123.32' | currency }}
+      </ion-item>
+      <ion-item>
+        12123.32 formatted as <br>{{ '12123.32' | currency:undefined:0 }}
+      </ion-item>
+      <ion-item>
+        12123.32 formatted as <br>{{ '12123.32' | currency:'USD ':2 }}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
